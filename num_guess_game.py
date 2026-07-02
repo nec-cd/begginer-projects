@@ -34,3 +34,6 @@ while lives>0 and win==False:
     elif guess>num_game:
         print("Too high")
         lives -= 1
+    
+if lives==0:
+    print(f"You lose! The number was {num_game}")
